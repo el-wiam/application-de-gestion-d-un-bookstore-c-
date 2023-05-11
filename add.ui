@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ADD</class>
+ <widget class="QDialog" name="ADD">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>877</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>851</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border-radius:50px;</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgrond-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>Add a book</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>211</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+background-color:transparent;
+color:#454545;</string>
+       </property>
+       <property name="text">
+        <string>Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+background-color:transparent;
+color:#454545;</string>
+       </property>
+       <property name="text">
+        <string>Author :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+background-color:transparent;
+color:#454545;</string>
+       </property>
+       <property name="text">
+        <string>Date of publishing:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+background-color:transparent;
+color:#454545;</string>
+       </property>
+       <property name="text">
+        <string>Price :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+background-color:transparent;
+color:#454545;</string>
+       </property>
+       <property name="text">
+        <string>Status:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>50</y>
+      <width>421</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Downloads/book4-.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbtnn">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>370</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:grey;
+font: 10pt &quot;Felix Titling&quot;;</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>221</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="name">
+       <property name="styleSheet">
+        <string notr="true">background-color:#bbbbbb;
+color:white;
+font: 14pt &quot;Georgia&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="author">
+       <property name="styleSheet">
+        <string notr="true">background-color:#bbbbbb;
+color:white;
+font: 14pt &quot;Georgia&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="date">
+       <property name="styleSheet">
+        <string notr="true">background-color:#bbbbbb;
+color:white;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="price">
+       <property name="styleSheet">
+        <string notr="true">background-color:#bbbbbb;
+color:white;
+font: 14pt &quot;Georgia&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="status">
+       <property name="styleSheet">
+        <string notr="true">background-color:#bbbbbb;
+color:white;
+font: 14pt &quot;Georgia&quot;;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>choices</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Reserved</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>sold</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>non available</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>available</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>borrowed</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btnadd">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>360</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+color:white;
+font: 75 10pt &quot;Georgia&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnclear">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>360</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+color:white;
+font: 75 10pt &quot;Georgia&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <zorder>label_7</zorder>
+   <zorder>label_2</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>exitbtnn</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>btnadd</zorder>
+   <zorder>btnclear</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

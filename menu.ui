@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QDialog" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>934</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>911</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border-radius:50px;</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="addbtn">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>80</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#bbbbbb;
+font: 75 14pt &quot;Georgia&quot;;
+font: 14pt &quot;Georgia&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Add a book</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deletebtn">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>150</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#bbbbbb;
+font: 75 14pt &quot;Georgia&quot;;
+font: 14pt &quot;Georgia&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Delete a book</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="modbtn">
+    <property name="geometry">
+     <rect>
+      <x>592</x>
+      <y>217</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#bbbbbb;
+font: 75 14pt &quot;Georgia&quot;;
+font: 14pt &quot;Georgia&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Modify a book</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="booklist">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>290</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#bbbbbb;
+font: 75 14pt &quot;Georgia&quot;;
+font: 14pt &quot;Georgia&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>List of books</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>20</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgrond-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>         MENU </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>501</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Downloads/book3 (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbtn">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:grey;
+font: 10pt &quot;Felix Titling&quot;;</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>addbtn</zorder>
+   <zorder>deletebtn</zorder>
+   <zorder>modbtn</zorder>
+   <zorder>booklist</zorder>
+   <zorder>label_2</zorder>
+   <zorder>exitbtn</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

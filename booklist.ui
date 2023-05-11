@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>booklist</class>
+ <widget class="QDialog" name="booklist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>801</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border-radius:50px;</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>0</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgrond-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>        List of books</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="list">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>80</y>
+      <width>591</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#bbbbbb;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbtn">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>380</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:grey;
+font: 10pt &quot;Felix Titling&quot;;</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="all">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+color:white;
+font: 75 10pt &quot;Georgia&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Display all</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="status">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#bbbbbb;
+color:white;
+font: 14pt &quot;Georgia&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>choices</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>available</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>non availabe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>reserved</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sold</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="apply">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+color:white;
+font: 75 10pt &quot;Georgia&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
